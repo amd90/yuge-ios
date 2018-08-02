@@ -1,0 +1,20 @@
+PODS:
+  - SwiftySound (1.0.0)
+  - Toast-Swift (3.0.1)
+
+DEPENDENCIES:
+  - SwiftySound
+  - Toast-Swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftySound
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  SwiftySound: b9c3370956fd4ed65ed79d45563070077a50a2cd
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+
+PODFILE CHECKSUM: d87a954a9dd0554a9431e968b4fdf76882c26ce9
+
+COCOAPODS: 1.5.3

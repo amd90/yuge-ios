@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15F9101D61B0E7DD4222A128B2304FED /* Pods-Yuge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 608751A59E2E57D521DDAF6873E1FF4F /* Pods-Yuge-dummy.m */; };
+		200E300747AA7E9199B97AE3426B5715 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B16C25B939C4838750A02A5BCD2D63D2 /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20248AEA34FEF2031178CFE28B919405 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3849387AADC346169E230F0AD930E56 /* Foundation.framework */; };
+		2DCD223EC9F3FD70C611FDF3B7CB3D35 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E34ED0F04BF658F5B24BF55C597EBA /* Sound.swift */; };
+		3E62F67412B4BD6C169A9FF8A473749D /* SwiftySound-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0519060C371EB2BFD0A8A2AB657346D8 /* SwiftySound-dummy.m */; };
+		4285D955C43299E285AB2A4067D7A0A2 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51BB1EE428CF628EDE3E66FDACF9471 /* Toast.swift */; };
+		4DCDEDF520FAE36C0D7607F5CF486022 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7673EAB62668ED8C8DAE725C0D25C1B2 /* QuartzCore.framework */; };
+		6F10E2322D5FD1056196ED2252103D71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3849387AADC346169E230F0AD930E56 /* Foundation.framework */; };
+		ADBF4E879007AF08C6AAE065E4329106 /* Pods-Yuge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5EFA53AE9A772C02202CE02109992D /* Pods-Yuge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C41E2D567D3A8F16C414EC06BEB429DF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB3355DB36EEC1C17421B235F5FDB5D7 /* AVFoundation.framework */; };
+		CABA881E194F52E9EA27DC35239B9115 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82451F7E653C9149F76EC8E77D8779D9 /* Toast-Swift-dummy.m */; };
+		F1686A1C47659332216C31BEA7DBB0A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3849387AADC346169E230F0AD930E56 /* Foundation.framework */; };
+		FFFAB1A72B29BFFFE850E43FD55B77A6 /* SwiftySound-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 006356B537925F15806887089B76DEE4 /* SwiftySound-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38DE7F8A00A4FC70C4CD77A54F05713D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E63FDCE751AFD72158BB3159D9C0F22;
+			remoteInfo = "Toast-Swift";
+		};
+		50ED070A2B496B4B32352FDA57D28C7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63CE745A2DCF45FA0B317A70C39D048C;
+			remoteInfo = SwiftySound;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006356B537925F15806887089B76DEE4 /* SwiftySound-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftySound-umbrella.h"; sourceTree = "<group>"; };
+		0498101D0102AC39A9D10B3F38C1F288 /* Pods-Yuge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Yuge-frameworks.sh"; sourceTree = "<group>"; };
+		0519060C371EB2BFD0A8A2AB657346D8 /* SwiftySound-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftySound-dummy.m"; sourceTree = "<group>"; };
+		07BA53E0FBE63A92F375919AB1C98ABC /* Pods_Yuge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Yuge.framework; path = "Pods-Yuge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E34ED0F04BF658F5B24BF55C597EBA /* Sound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sound.swift; path = Sources/Sound.swift; sourceTree = "<group>"; };
+		15A1E30EF8A2E467262055D00704096C /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
+		169660F22B5228109F7CFEB3B571C486 /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
+		240454605BEE99F918F6FC8DF2BEDFF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EBDAE0A1EFB468693934688F8EF1F0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F6870F6C812B663A32AB8079F804788 /* Pods-Yuge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Yuge.debug.xcconfig"; sourceTree = "<group>"; };
+		399A882B372F34882FE8F7C6C99229AD /* SwiftySound.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftySound.framework; path = SwiftySound.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59D5FB2665DD4CF1D610FAF92467E718 /* SwiftySound.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftySound.xcconfig; sourceTree = "<group>"; };
+		5B7B969ED0DF67CF42CD71EC8C7F0961 /* Pods-Yuge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Yuge.modulemap"; sourceTree = "<group>"; };
+		5F32291E4EDCDFD0ECEF0C17BAAD4D05 /* Pods-Yuge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Yuge.release.xcconfig"; sourceTree = "<group>"; };
+		608751A59E2E57D521DDAF6873E1FF4F /* Pods-Yuge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Yuge-dummy.m"; sourceTree = "<group>"; };
+		71D97D4152CEDC7C80B7F64EDF68D2DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75971200D7A6332A380BC69A2C4A30E9 /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
+		7673EAB62668ED8C8DAE725C0D25C1B2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		7B5EFA53AE9A772C02202CE02109992D /* Pods-Yuge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Yuge-umbrella.h"; sourceTree = "<group>"; };
+		82451F7E653C9149F76EC8E77D8779D9 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB3355DB36EEC1C17421B235F5FDB5D7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		B16C25B939C4838750A02A5BCD2D63D2 /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
+		BEA025C62D04DE0E4915BEE91730EDC7 /* Pods-Yuge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Yuge-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C81F3C8FDB6F46AC0519E650B9269757 /* SwiftySound-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftySound-prefix.pch"; sourceTree = "<group>"; };
+		D3849387AADC346169E230F0AD930E56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D4F7A18EBA9BFB019FED35698EE8F3BE /* SwiftySound.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftySound.modulemap; sourceTree = "<group>"; };
+		D51BB1EE428CF628EDE3E66FDACF9471 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
+		D6A3C8CFD87325C0275F9CDE51026266 /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast_Swift.framework; path = "Toast-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB1606395750964CEB30FD9949B8066 /* Pods-Yuge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Yuge-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA5D2831BA9AB66624B59A567230A65F /* Pods-Yuge-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Yuge-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36F258C4C361E46305D03947599B1C2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F10E2322D5FD1056196ED2252103D71 /* Foundation.framework in Frameworks */,
+				4DCDEDF520FAE36C0D7607F5CF486022 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B41D17EDE7BE5BECE88C8BCDC6E0EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41E2D567D3A8F16C414EC06BEB429DF /* AVFoundation.framework in Frameworks */,
+				20248AEA34FEF2031178CFE28B919405 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6790C650F047E56DCBD17B82838ECBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1686A1C47659332216C31BEA7DBB0A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B53148553ED44A041F1CA438E6AC5B83 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B9CC56324687FE0115D428D1EB441A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07BA53E0FBE63A92F375919AB1C98ABC /* Pods_Yuge.framework */,
+				399A882B372F34882FE8F7C6C99229AD /* SwiftySound.framework */,
+				D6A3C8CFD87325C0275F9CDE51026266 /* Toast_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				EBF27C2987A0F5F42F8604B710639D52 /* Pods */,
+				4B9CC56324687FE0115D428D1EB441A4 /* Products */,
+				954E04062C2F26B5BFAB713800A377E1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7ECC81C3295D0703208946247311870B /* SwiftySound */ = {
+			isa = PBXGroup;
+			children = (
+				09E34ED0F04BF658F5B24BF55C597EBA /* Sound.swift */,
+				AD410454B26815EEDF0FA30B1A7C39CE /* Support Files */,
+			);
+			name = SwiftySound;
+			path = SwiftySound;
+			sourceTree = "<group>";
+		};
+		954E04062C2F26B5BFAB713800A377E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F94079C056B31D2D5C0C13E6434E5170 /* Pods-Yuge */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A150FC3B819EA1539DCCF357176B256C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EBDAE0A1EFB468693934688F8EF1F0E /* Info.plist */,
+				15A1E30EF8A2E467262055D00704096C /* Toast-Swift.modulemap */,
+				75971200D7A6332A380BC69A2C4A30E9 /* Toast-Swift.xcconfig */,
+				82451F7E653C9149F76EC8E77D8779D9 /* Toast-Swift-dummy.m */,
+				169660F22B5228109F7CFEB3B571C486 /* Toast-Swift-prefix.pch */,
+				B16C25B939C4838750A02A5BCD2D63D2 /* Toast-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast-Swift";
+			sourceTree = "<group>";
+		};
+		AD410454B26815EEDF0FA30B1A7C39CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				71D97D4152CEDC7C80B7F64EDF68D2DA /* Info.plist */,
+				D4F7A18EBA9BFB019FED35698EE8F3BE /* SwiftySound.modulemap */,
+				59D5FB2665DD4CF1D610FAF92467E718 /* SwiftySound.xcconfig */,
+				0519060C371EB2BFD0A8A2AB657346D8 /* SwiftySound-dummy.m */,
+				C81F3C8FDB6F46AC0519E650B9269757 /* SwiftySound-prefix.pch */,
+				006356B537925F15806887089B76DEE4 /* SwiftySound-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftySound";
+			sourceTree = "<group>";
+		};
+		B53148553ED44A041F1CA438E6AC5B83 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AB3355DB36EEC1C17421B235F5FDB5D7 /* AVFoundation.framework */,
+				D3849387AADC346169E230F0AD930E56 /* Foundation.framework */,
+				7673EAB62668ED8C8DAE725C0D25C1B2 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D0C9AE9587B37318FBD992871C48DB04 /* Toast-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D51BB1EE428CF628EDE3E66FDACF9471 /* Toast.swift */,
+				A150FC3B819EA1539DCCF357176B256C /* Support Files */,
+			);
+			name = "Toast-Swift";
+			path = "Toast-Swift";
+			sourceTree = "<group>";
+		};
+		EBF27C2987A0F5F42F8604B710639D52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ECC81C3295D0703208946247311870B /* SwiftySound */,
+				D0C9AE9587B37318FBD992871C48DB04 /* Toast-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F94079C056B31D2D5C0C13E6434E5170 /* Pods-Yuge */ = {
+			isa = PBXGroup;
+			children = (
+				240454605BEE99F918F6FC8DF2BEDFF6 /* Info.plist */,
+				5B7B969ED0DF67CF42CD71EC8C7F0961 /* Pods-Yuge.modulemap */,
+				BEA025C62D04DE0E4915BEE91730EDC7 /* Pods-Yuge-acknowledgements.markdown */,
+				EBB1606395750964CEB30FD9949B8066 /* Pods-Yuge-acknowledgements.plist */,
+				608751A59E2E57D521DDAF6873E1FF4F /* Pods-Yuge-dummy.m */,
+				0498101D0102AC39A9D10B3F38C1F288 /* Pods-Yuge-frameworks.sh */,
+				FA5D2831BA9AB66624B59A567230A65F /* Pods-Yuge-resources.sh */,
+				7B5EFA53AE9A772C02202CE02109992D /* Pods-Yuge-umbrella.h */,
+				2F6870F6C812B663A32AB8079F804788 /* Pods-Yuge.debug.xcconfig */,
+				5F32291E4EDCDFD0ECEF0C17BAAD4D05 /* Pods-Yuge.release.xcconfig */,
+			);
+			name = "Pods-Yuge";
+			path = "Target Support Files/Pods-Yuge";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1800457024FCD06212B27BD097D87643 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFAB1A72B29BFFFE850E43FD55B77A6 /* SwiftySound-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416B54F958BD78E72BB321C32F9F23A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBF4E879007AF08C6AAE065E4329106 /* Pods-Yuge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2E3F1DB3580646870585EE01871FA70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200E300747AA7E9199B97AE3426B5715 /* Toast-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		49DE82D3E472925962637E2CEF0B8BCD /* Pods-Yuge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D497B4DD14ACB2CDFF037114930BEF /* Build configuration list for PBXNativeTarget "Pods-Yuge" */;
+			buildPhases = (
+				8D03A7C23894DF3D79A106D9B94A13B7 /* Sources */,
+				B6790C650F047E56DCBD17B82838ECBF /* Frameworks */,
+				416B54F958BD78E72BB321C32F9F23A8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84AC089EA5F07E7883E9720FE3F640CA /* PBXTargetDependency */,
+				168C2576F323BAD384FAD354A4346413 /* PBXTargetDependency */,
+			);
+			name = "Pods-Yuge";
+			productName = "Pods-Yuge";
+			productReference = 07BA53E0FBE63A92F375919AB1C98ABC /* Pods_Yuge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E63FDCE751AFD72158BB3159D9C0F22 /* Toast-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026A050553B1FED90610F7DF6180F871 /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
+			buildPhases = (
+				FEF6FCCC9EBBF475F1FC5FD6915163EB /* Sources */,
+				36F258C4C361E46305D03947599B1C2E /* Frameworks */,
+				B2E3F1DB3580646870585EE01871FA70 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toast-Swift";
+			productName = "Toast-Swift";
+			productReference = D6A3C8CFD87325C0275F9CDE51026266 /* Toast_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63CE745A2DCF45FA0B317A70C39D048C /* SwiftySound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4382B3F55A5CCA4C0058EBB26B019D2 /* Build configuration list for PBXNativeTarget "SwiftySound" */;
+			buildPhases = (
+				742B45990994AFA0999DD47C02F6FB18 /* Sources */,
+				4B41D17EDE7BE5BECE88C8BCDC6E0EA0 /* Frameworks */,
+				1800457024FCD06212B27BD097D87643 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftySound;
+			productName = SwiftySound;
+			productReference = 399A882B372F34882FE8F7C6C99229AD /* SwiftySound.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4B9CC56324687FE0115D428D1EB441A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49DE82D3E472925962637E2CEF0B8BCD /* Pods-Yuge */,
+				63CE745A2DCF45FA0B317A70C39D048C /* SwiftySound */,
+				5E63FDCE751AFD72158BB3159D9C0F22 /* Toast-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		742B45990994AFA0999DD47C02F6FB18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD223EC9F3FD70C611FDF3B7CB3D35 /* Sound.swift in Sources */,
+				3E62F67412B4BD6C169A9FF8A473749D /* SwiftySound-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D03A7C23894DF3D79A106D9B94A13B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15F9101D61B0E7DD4222A128B2304FED /* Pods-Yuge-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF6FCCC9EBBF475F1FC5FD6915163EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABA881E194F52E9EA27DC35239B9115 /* Toast-Swift-dummy.m in Sources */,
+				4285D955C43299E285AB2A4067D7A0A2 /* Toast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		168C2576F323BAD384FAD354A4346413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Toast-Swift";
+			target = 5E63FDCE751AFD72158BB3159D9C0F22 /* Toast-Swift */;
+			targetProxy = 38DE7F8A00A4FC70C4CD77A54F05713D /* PBXContainerItemProxy */;
+		};
+		84AC089EA5F07E7883E9720FE3F640CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftySound;
+			target = 63CE745A2DCF45FA0B317A70C39D048C /* SwiftySound */;
+			targetProxy = 50ED070A2B496B4B32352FDA57D28C7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		375ECF369D98C7CBB606E4305A2DA7DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59D5FB2665DD4CF1D610FAF92467E718 /* SwiftySound.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftySound/SwiftySound-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftySound/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftySound/SwiftySound.modulemap";
+				PRODUCT_MODULE_NAME = SwiftySound;
+				PRODUCT_NAME = SwiftySound;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6EE9CF265F48F38EA8F0020338E987F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75971200D7A6332A380BC69A2C4A30E9 /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71A1F9C285367114BE1B3F311A9E70E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75971200D7A6332A380BC69A2C4A30E9 /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_MODULE_NAME = Toast_Swift;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8FF95CC971A8284CB5DF1EBEEEEB3561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F32291E4EDCDFD0ECEF0C17BAAD4D05 /* Pods-Yuge.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Yuge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Yuge/Pods-Yuge.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D178746D0FCC7DF7B939A1C3D8E5CEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6870F6C812B663A32AB8079F804788 /* Pods-Yuge.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Yuge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Yuge/Pods-Yuge.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4B87E5793076F418C28B3816D6986AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59D5FB2665DD4CF1D610FAF92467E718 /* SwiftySound.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftySound/SwiftySound-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftySound/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftySound/SwiftySound.modulemap";
+				PRODUCT_MODULE_NAME = SwiftySound;
+				PRODUCT_NAME = SwiftySound;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		026A050553B1FED90610F7DF6180F871 /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE9CF265F48F38EA8F0020338E987F3 /* Debug */,
+				71A1F9C285367114BE1B3F311A9E70E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D497B4DD14ACB2CDFF037114930BEF /* Build configuration list for PBXNativeTarget "Pods-Yuge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D178746D0FCC7DF7B939A1C3D8E5CEA3 /* Debug */,
+				8FF95CC971A8284CB5DF1EBEEEEB3561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4382B3F55A5CCA4C0058EBB26B019D2 /* Build configuration list for PBXNativeTarget "SwiftySound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375ECF369D98C7CBB606E4305A2DA7DE /* Debug */,
+				E4B87E5793076F418C28B3816D6986AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
