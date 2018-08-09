@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         lblYugeCounter.text = "You've yuged \(counter) times"
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,6 +34,11 @@ class ViewController: UIViewController {
         Sound.play(file: "yuge.mp3")
         counter += 1
         lblYugeCounter.text = "You've yuged \(counter) times"
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
+        //performSegue(withIdentifier: "HomeToSlider", sender: nil)
     }
 }
 

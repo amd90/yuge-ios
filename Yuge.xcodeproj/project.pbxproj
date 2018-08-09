@@ -13,6 +13,7 @@
 		414C239A2112CAC800A9984D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414C23992112CAC800A9984D /* Assets.xcassets */; };
 		414C239D2112CAC800A9984D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 414C239B2112CAC800A9984D /* LaunchScreen.storyboard */; };
 		4186E7B52112CEE700723363 /* yuge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4186E7B42112CEE700723363 /* yuge.mp3 */; };
+		41A318AC2117C25600B1B6E8 /* ImageSliderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A318AB2117C25600B1B6E8 /* ImageSliderVC.swift */; };
 		82382AFBB81E560058662B2E /* Pods_Yuge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4855D8D0E27C79BBEF16F991 /* Pods_Yuge.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		414C239C2112CAC800A9984D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		414C239E2112CAC800A9984D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4186E7B42112CEE700723363 /* yuge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yuge.mp3; sourceTree = "<group>"; };
+		41A318AB2117C25600B1B6E8 /* ImageSliderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderVC.swift; sourceTree = "<group>"; };
 		4855D8D0E27C79BBEF16F991 /* Pods_Yuge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yuge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86FE1C241429E67A60697CD /* Pods-Yuge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yuge.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yuge/Pods-Yuge.release.xcconfig"; sourceTree = "<group>"; };
 		F35FA7901EE1F8BF26271C7A /* Pods-Yuge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yuge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yuge/Pods-Yuge.debug.xcconfig"; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				414C23992112CAC800A9984D /* Assets.xcassets */,
 				414C239B2112CAC800A9984D /* LaunchScreen.storyboard */,
 				414C239E2112CAC800A9984D /* Info.plist */,
+				41A318AB2117C25600B1B6E8 /* ImageSliderVC.swift */,
 			);
 			path = Yuge;
 			sourceTree = "<group>";
@@ -186,11 +189,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Yuge/Pods-Yuge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftySound/SwiftySound.framework",
 				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftySound.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
 			);
@@ -207,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				414C23952112CAC700A9984D /* ViewController.swift in Sources */,
+				41A318AC2117C25600B1B6E8 /* ImageSliderVC.swift in Sources */,
 				414C23932112CAC700A9984D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

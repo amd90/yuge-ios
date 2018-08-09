@@ -8,5 +8,5 @@ target 'Yuge' do
   # Pods for Yuge
   pod 'SwiftySound'
   pod 'Toast-Swift'
-
+  pod 'ImageSlideshow/Kingfisher'
 end

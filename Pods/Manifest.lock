@@ -1,20 +1,30 @@
 PODS:
+  - ImageSlideshow/Core (1.6.1)
+  - ImageSlideshow/Kingfisher (1.6.1):
+    - ImageSlideshow/Core
+    - Kingfisher (> 3.0)
+  - Kingfisher (4.8.1)
   - SwiftySound (1.0.0)
   - Toast-Swift (3.0.1)
 
 DEPENDENCIES:
+  - ImageSlideshow/Kingfisher
   - SwiftySound
   - Toast-Swift
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - ImageSlideshow
+    - Kingfisher
     - SwiftySound
     - Toast-Swift
 
 SPEC CHECKSUMS:
+  ImageSlideshow: f0f33e1a20668e83d77f5fb7729e4ae4437c0759
+  Kingfisher: 868c1149679a7ab6869be118faa9b5aed154aaf0
   SwiftySound: b9c3370956fd4ed65ed79d45563070077a50a2cd
   Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
 
-PODFILE CHECKSUM: d87a954a9dd0554a9431e968b4fdf76882c26ce9
+PODFILE CHECKSUM: 251e12b00261195342d91897b140306ca92cebe1
 
 COCOAPODS: 1.5.3

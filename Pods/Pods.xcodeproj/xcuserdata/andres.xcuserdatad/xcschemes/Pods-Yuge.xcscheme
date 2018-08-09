@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "49DE82D3E472925962637E2CEF0B8BCD"
+               BlueprintIdentifier = "B70F918DD2AD0940CF023CB2CFD740B2"
                BuildableName = "Pods_Yuge.framework"
                BlueprintName = "Pods-Yuge"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "49DE82D3E472925962637E2CEF0B8BCD"
+            BlueprintIdentifier = "B70F918DD2AD0940CF023CB2CFD740B2"
             BuildableName = "Pods_Yuge.framework"
             BlueprintName = "Pods-Yuge"
             ReferencedContainer = "container:Pods.xcodeproj">
